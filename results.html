@@ -17,7 +17,7 @@
   <body>
     <!-- Submenu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
+      <div class="container px-0">
         <ul
           class="text-light navbar-nav container-fluid justify-content-between"
         >
@@ -36,14 +36,30 @@
         </ul>
       </div>
     </nav>
-    <main class="container">
+    <header class="container" id="results-page">
       <div class="row">
-        <div class="col-4">We found 124 results</div>
-        <div class="col-4">Area Name</div>
-        <div class="col-4">Sort by: Price</div>
+        <div class="col-2">Search</div>
+        <div class="col-2">Type</div>
+        <div class="col-2">Price</div>
+        <div class="col-2">Bedroom</div>
+        <div class="col-2">Bathroom</div>
+        <div class="col-2 text-right">
+          <button type="button" class="btn btn-primary btn-block">
+            Search
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="container" id="results-page">
+      <div class="row" id="results-sub-header">
+        <div class="col-4">
+          <h4>We found 124 results</h4>
+        </div>
+        <div class="col-4 text-center">Area Name</div>
+        <div class="col-4 text-right">Sort by: Price ↓</div>
       </div>
       <div class="row">
-        <div id="results" class="col-7">
+        <div id="results" class="col-7 pl-3">
           <div class="card position-relative" style="width: 18rem;">
             <img
               class="card-img-top"

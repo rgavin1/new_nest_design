@@ -110,6 +110,19 @@ footer .copy-rights p {
 }
 
 /* =========== Results Page ============== */
+main#results-page {
+  padding: 0;
+}
+
+main#results-page #results-sub-header {
+  padding: 15px 0;
+}
+
+header#results-page {
+  border-bottom: solid 1px black;
+  padding: 15px 0;
+}
+
 #results {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,9 +133,10 @@ footer .copy-rights p {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 0;
 }
 
 #results .card {

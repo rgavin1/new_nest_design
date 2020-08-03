@@ -112,11 +112,23 @@ footer {
 }
 
 /* =========== Results Page ============== */
+main#results-page {
+  padding: 0;
+
+  #results-sub-header {
+    padding: 15px 0;
+  }
+}
+header#results-page {
+  border-bottom: solid 1px black;
+  padding: 15px 0;
+}
 #results {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: start;
+  padding: 0;
   .card {
     height: 400px;
     margin-bottom: 15px;
