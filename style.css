@@ -131,6 +131,7 @@ footer .copy-rights p {
   margin-right: 20px;
   cursor: pointer;
   overflow: hidden;
+  min-width: 15rem;
 }
 
 #results .card img {
