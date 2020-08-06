@@ -308,6 +308,18 @@ header#results-page {
   font-weight: 300;
 }
 
+#listing-hero #listing-agent #listing-agent-inner #listing-agent-name {
+  vertical-align: middle;
+  display: -ms-inline-grid;
+  display: inline-grid;
+}
+
+#listing-hero #listing-agent #listing-agent-inner #listing-agent-name p {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
 #listing-hero #listing-agent #listing-agent-inner button {
   margin-top: 15px;
 }
@@ -321,5 +333,15 @@ header#results-page {
 
 #listing-hero #listing-agent img {
   width: 75px;
+}
+
+#listing-page #carouselExampleIndicators {
+  width: 60%;
+  background-color: pink;
+}
+
+#listing-page .carousel-inner {
+  width: inherit;
+  height: 400px;
 }
 /*# sourceMappingURL=style.css.map */

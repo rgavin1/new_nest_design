@@ -288,6 +288,14 @@ header#results-page {
         font-weight: 300;
       }
 
+      #listing-agent-name {
+        vertical-align: middle;
+        display: inline-grid;
+        p {
+          align-self: end;
+        }
+      }
+
       button {
         margin-top: 15px;
       }
@@ -301,6 +309,19 @@ header#results-page {
 
     img {
       width: 75px;
+    }
+  }
+}
+
+#listing-page {
+  #carouselExampleIndicators {
+    width: 60%;
+    background-color: pink;
+  }
+  .carousel-inner {
+    width: inherit;
+    height: 400px;
+    img {
     }
   }
 }
