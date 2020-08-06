@@ -272,6 +272,27 @@ header#results-page {
     bottom: -11.5rem;
     z-index: 1;
 
+    #listing-agent-inner {
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+      .row {
+        &:nth-child(2) {
+          margin-top: 15px;
+        }
+      }
+
+      p {
+        margin-bottom: 0;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      button {
+        margin-top: 15px;
+      }
+    }
+
     .container {
       height: inherit;
       vertical-align: middle;

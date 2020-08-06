@@ -293,6 +293,25 @@ header#results-page {
   z-index: 1;
 }
 
+#listing-hero #listing-agent #listing-agent-inner {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#listing-hero #listing-agent #listing-agent-inner .row:nth-child(2) {
+  margin-top: 15px;
+}
+
+#listing-hero #listing-agent #listing-agent-inner p {
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#listing-hero #listing-agent #listing-agent-inner button {
+  margin-top: 15px;
+}
+
 #listing-hero #listing-agent .container {
   height: inherit;
   vertical-align: middle;
