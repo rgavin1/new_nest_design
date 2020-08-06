@@ -271,4 +271,36 @@ header#results-page {
   height: 3px;
   right: -60px;
 }
+
+/* ---- Listing Page ---- */
+#listing-hero {
+  background-image: url("./assets/images/apartment-3564955_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+#listing-hero #listing-agent {
+  background-color: #000;
+  color: #fff;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  right: 50px;
+  bottom: -11.5rem;
+  z-index: 1;
+}
+
+#listing-hero #listing-agent .container {
+  height: inherit;
+  vertical-align: middle;
+  display: -ms-inline-grid;
+  display: inline-grid;
+}
+
+#listing-hero #listing-agent img {
+  width: 75px;
+}
 /*# sourceMappingURL=style.css.map */
